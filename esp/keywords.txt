@@ -1,0 +1,66 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+STMConnector        KEYWORD1
+UniformSensorAccess KEYWORD1
+Motor               KEYWORD1
+MotorKind           KEYWORD1
+IRSensor            KEYWORD1
+IRKind              KEYWORD1
+EchoSensor          KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+writeChannel    KEYWORD2
+readChannel     KEYWORD2
+readAll         KEYWORD2
+update          KEYWORD2
+get             KEYWORD2
+setAutoUpdate   KEYWORD2
+setPower        KEYWORD2
+getPower        KEYWORD2
+getRaw          KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ESPEEDY_STM_REGISTER_ID_MOTOR_L LITERAL1
+ESPEEDY_STM_REGISTER_ID_MOTOR_R LITERAL1
+
+ESPEEDY_STM_SENSOR_ID_ECHO      LITERAL1
+ESPEEDY_STM_SENSOR_ID_IR_0      LITERAL1
+ESPEEDY_STM_SENSOR_ID_IR_1      LITERAL1
+ESPEEDY_STM_SENSOR_ID_IR_2      LITERAL1
+ESPEEDY_STM_SENSOR_ID_IR_3      LITERAL1
+ESPEEDY_STM_SENSOR_ID_IR_4      LITERAL1
+ESPEEDY_STM_SENSOR_ID_IR_5      LITERAL1
+ESPEEDY_STM_SENSOR_ID_IR_BL     LITERAL1
+ESPEEDY_STM_SENSOR_ID_IR_BR     LITERAL1
+
+IR_KIND_O                       LITERAL1
+IR_KIND_1                       LITERAL1
+IR_KIND_2                       LITERAL1
+IR_KIND_3                       LITERAL1
+IR_KIND_4                       LITERAL1
+IR_KIND_5                       LITERAL1
+IR_KIND_BL                      LITERAL1
+IR_KIND_BR                      LITERAL1
+
+IRSensor0                       LITERAL1
+IRSensor1                       LITERAL1
+IRSensor2                       LITERAL1
+IRSensor3                       LITERAL1
+IRSensor4                       LITERAL1
+IRSensor5                       LITERAL1
+IRSensorBL                      LITERAL1
+IRSensorBR                      LITERAL1
+
+MOTOR_KIND_LEFT                 LITERAL1
+MOTOR_KIND_RIGHT                LITERAL1
+
+MotorL                          LITERAL1
+MotorR                          LITERAL1
